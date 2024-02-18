@@ -3,6 +3,12 @@
 function checkVotingAge(age) {
   // TODO: Implement this function.
   const result = undefined;
+  if (age >= 18) {
+    result = true;
+  }
+  else {
+    result = false;
+  }
   return result;
 }
 
